@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1834457170334138505
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1834457170334138507}
+  - component: {fileID: 1834457170334138504}
+  - component: {fileID: 1577593781}
+  - component: {fileID: 7320132108652480021}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1834457170334138507
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1834457170334138505}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.04441222, y: 1.4814531, z: 1.4391406}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1834457170334138504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1834457170334138505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b354a07b2da4434a8a74e23180e6536, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _uim: {fileID: 0}
+  _timer: {fileID: 0}
+  _levelLoader: {fileID: 0}
+  levelObjectives:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  _currentLevelObjective: 0
+  _maxLamps: 0
+--- !u!114 &1577593781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1834457170334138505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e39fb1173bb5ffc42ac7a646d65e606c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _ll: {fileID: 0}
+  _uim: {fileID: 0}
+  _objectiveToActivate: 1
+  _timeToEnd: 70
+--- !u!114 &7320132108652480021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1834457170334138505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86b12f6b582d5ba49875f6878dde684b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
